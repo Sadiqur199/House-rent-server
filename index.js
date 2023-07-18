@@ -98,7 +98,6 @@ const houseSchema = new mongoose.Schema({
 });
 
 const House = mongoose.model('House', houseSchema);
-
 // Add New House Route
 app.post('/houses', async (req, res) => {
   try {
