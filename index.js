@@ -131,7 +131,6 @@ app.delete('/houses/:id', async (req, res) => {
     res.status(500).json({ error: 'Server error' });
   }
 });
-
 // Update House Route
 app.put('/houses/:id', async (req, res) => {
   try {
