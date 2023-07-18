@@ -120,7 +120,6 @@ app.get('/houses', async (req, res) => {
     res.status(500).json({ error: 'Server error' });
   }
 });
-
 // Delete House Route
 app.delete('/houses/:id', async (req, res) => {
   try {
